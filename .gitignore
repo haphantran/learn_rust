@@ -44,8 +44,8 @@ no_llvm_build
 ## Build
 # Rust-specific build artifacts
 /target/
+/**/target/.rustc_info.json
 /**/target/
-/target/.rustc_info.json
 */dl/
 */doc/
 */inst/
