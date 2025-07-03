@@ -42,6 +42,10 @@ config.stamp
 no_llvm_build
 
 ## Build
+# Rust-specific build artifacts
+/target/
+/**/target/
+/target/.rustc_info.json
 */dl/
 */doc/
 */inst/
@@ -51,7 +55,7 @@ no_llvm_build
 */build-rust-analyzer/
 */dist/
 */unicode-downloads
-*/target
+*/target/*
 */library/target
 */src/bootstrap/target
 */src/ci/citool/target
