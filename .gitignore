@@ -104,4 +104,4 @@ tests/rustdoc-gui/src/**.lock
 flake.lock
 /default.nix
 
-# Before adding new lines, see the comment at the top.
+# Before adding new lines, see the comment at the top..rustc_info.json
